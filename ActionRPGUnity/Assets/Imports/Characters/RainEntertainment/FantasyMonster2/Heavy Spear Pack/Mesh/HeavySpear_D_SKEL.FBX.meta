@@ -1,99 +1,279 @@
 fileFormatVersion: 2
 guid: dc3e8f3465093574aa4a80d754ce9e3f
-timeCreated: 1533429715
-licenseType: Store
 ModelImporter:
-  serializedVersion: 19
-  fileIDToRecycleName:
-    100000: Bip001
-    100002: Bip001-Head
-    100004: Bip001-L-Calf
-    100006: Bip001-L-Clavicle
-    100008: Bip001-L-Finger0
-    100010: Bip001-L-Finger01
-    100012: Bip001-L-Finger1
-    100014: Bip001-L-Finger11
-    100016: Bip001-L-Foot
-    100018: Bip001-L-Forearm
-    100020: Bip001-L-Hand
-    100022: Bip001-L-Thigh
-    100024: Bip001-L-Toe0
-    100026: Bip001-L-UpperArm
-    100028: Bip001-Neck
-    100030: Bip001-Pelvis
-    100032: Bip001-Prop1
-    100034: Bip001-R-Calf
-    100036: Bip001-R-Clavicle
-    100038: Bip001-R-Finger0
-    100040: Bip001-R-Finger01
-    100042: Bip001-R-Finger1
-    100044: Bip001-R-Finger11
-    100046: Bip001-R-Foot
-    100048: Bip001-R-Forearm
-    100050: Bip001-R-Hand
-    100052: Bip001-R-Thigh
-    100054: Bip001-R-Toe0
-    100056: Bip001-R-UpperArm
-    100058: Bip001-Spine
-    100060: Bip001-Spine1
-    100062: Bip001-Spine2
-    100064: Cloth1_Bone
-    100066: Cloth2_Bone
-    100068: Dummy_root
-    100070: FXDummy_Head
-    100072: FXDummy_MainWeapon
-    100074: FXDummy_SubWeapon
-    100076: //RootNode
-    100078: MOC_Hunter_D_SKEL
-    100080: shield_Bone
-    400000: Bip001
-    400002: Bip001-Head
-    400004: Bip001-L-Calf
-    400006: Bip001-L-Clavicle
-    400008: Bip001-L-Finger0
-    400010: Bip001-L-Finger01
-    400012: Bip001-L-Finger1
-    400014: Bip001-L-Finger11
-    400016: Bip001-L-Foot
-    400018: Bip001-L-Forearm
-    400020: Bip001-L-Hand
-    400022: Bip001-L-Thigh
-    400024: Bip001-L-Toe0
-    400026: Bip001-L-UpperArm
-    400028: Bip001-Neck
-    400030: Bip001-Pelvis
-    400032: Bip001-Prop1
-    400034: Bip001-R-Calf
-    400036: Bip001-R-Clavicle
-    400038: Bip001-R-Finger0
-    400040: Bip001-R-Finger01
-    400042: Bip001-R-Finger1
-    400044: Bip001-R-Finger11
-    400046: Bip001-R-Foot
-    400048: Bip001-R-Forearm
-    400050: Bip001-R-Hand
-    400052: Bip001-R-Thigh
-    400054: Bip001-R-Toe0
-    400056: Bip001-R-UpperArm
-    400058: Bip001-Spine
-    400060: Bip001-Spine1
-    400062: Bip001-Spine2
-    400064: Cloth1_Bone
-    400066: Cloth2_Bone
-    400068: Dummy_root
-    400070: FXDummy_Head
-    400072: FXDummy_MainWeapon
-    400074: FXDummy_SubWeapon
-    400076: //RootNode
-    400078: MOC_Hunter_D_SKEL
-    400080: shield_Bone
-    4300000: MOC_Hunter_D_SKEL
-    9500000: //RootNode
-    13700000: MOC_Hunter_D_SKEL
+  serializedVersion: 19300
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Bip001
+  - first:
+      1: 100002
+    second: Bip001-Head
+  - first:
+      1: 100004
+    second: Bip001-L-Calf
+  - first:
+      1: 100006
+    second: Bip001-L-Clavicle
+  - first:
+      1: 100008
+    second: Bip001-L-Finger0
+  - first:
+      1: 100010
+    second: Bip001-L-Finger01
+  - first:
+      1: 100012
+    second: Bip001-L-Finger1
+  - first:
+      1: 100014
+    second: Bip001-L-Finger11
+  - first:
+      1: 100016
+    second: Bip001-L-Foot
+  - first:
+      1: 100018
+    second: Bip001-L-Forearm
+  - first:
+      1: 100020
+    second: Bip001-L-Hand
+  - first:
+      1: 100022
+    second: Bip001-L-Thigh
+  - first:
+      1: 100024
+    second: Bip001-L-Toe0
+  - first:
+      1: 100026
+    second: Bip001-L-UpperArm
+  - first:
+      1: 100028
+    second: Bip001-Neck
+  - first:
+      1: 100030
+    second: Bip001-Pelvis
+  - first:
+      1: 100032
+    second: Bip001-Prop1
+  - first:
+      1: 100034
+    second: Bip001-R-Calf
+  - first:
+      1: 100036
+    second: Bip001-R-Clavicle
+  - first:
+      1: 100038
+    second: Bip001-R-Finger0
+  - first:
+      1: 100040
+    second: Bip001-R-Finger01
+  - first:
+      1: 100042
+    second: Bip001-R-Finger1
+  - first:
+      1: 100044
+    second: Bip001-R-Finger11
+  - first:
+      1: 100046
+    second: Bip001-R-Foot
+  - first:
+      1: 100048
+    second: Bip001-R-Forearm
+  - first:
+      1: 100050
+    second: Bip001-R-Hand
+  - first:
+      1: 100052
+    second: Bip001-R-Thigh
+  - first:
+      1: 100054
+    second: Bip001-R-Toe0
+  - first:
+      1: 100056
+    second: Bip001-R-UpperArm
+  - first:
+      1: 100058
+    second: Bip001-Spine
+  - first:
+      1: 100060
+    second: Bip001-Spine1
+  - first:
+      1: 100062
+    second: Bip001-Spine2
+  - first:
+      1: 100064
+    second: Cloth1_Bone
+  - first:
+      1: 100066
+    second: Cloth2_Bone
+  - first:
+      1: 100068
+    second: Dummy_root
+  - first:
+      1: 100070
+    second: FXDummy_Head
+  - first:
+      1: 100072
+    second: FXDummy_MainWeapon
+  - first:
+      1: 100074
+    second: FXDummy_SubWeapon
+  - first:
+      1: 100076
+    second: //RootNode
+  - first:
+      1: 100078
+    second: MOC_Hunter_D_SKEL
+  - first:
+      1: 100080
+    second: shield_Bone
+  - first:
+      4: 400000
+    second: Bip001
+  - first:
+      4: 400002
+    second: Bip001-Head
+  - first:
+      4: 400004
+    second: Bip001-L-Calf
+  - first:
+      4: 400006
+    second: Bip001-L-Clavicle
+  - first:
+      4: 400008
+    second: Bip001-L-Finger0
+  - first:
+      4: 400010
+    second: Bip001-L-Finger01
+  - first:
+      4: 400012
+    second: Bip001-L-Finger1
+  - first:
+      4: 400014
+    second: Bip001-L-Finger11
+  - first:
+      4: 400016
+    second: Bip001-L-Foot
+  - first:
+      4: 400018
+    second: Bip001-L-Forearm
+  - first:
+      4: 400020
+    second: Bip001-L-Hand
+  - first:
+      4: 400022
+    second: Bip001-L-Thigh
+  - first:
+      4: 400024
+    second: Bip001-L-Toe0
+  - first:
+      4: 400026
+    second: Bip001-L-UpperArm
+  - first:
+      4: 400028
+    second: Bip001-Neck
+  - first:
+      4: 400030
+    second: Bip001-Pelvis
+  - first:
+      4: 400032
+    second: Bip001-Prop1
+  - first:
+      4: 400034
+    second: Bip001-R-Calf
+  - first:
+      4: 400036
+    second: Bip001-R-Clavicle
+  - first:
+      4: 400038
+    second: Bip001-R-Finger0
+  - first:
+      4: 400040
+    second: Bip001-R-Finger01
+  - first:
+      4: 400042
+    second: Bip001-R-Finger1
+  - first:
+      4: 400044
+    second: Bip001-R-Finger11
+  - first:
+      4: 400046
+    second: Bip001-R-Foot
+  - first:
+      4: 400048
+    second: Bip001-R-Forearm
+  - first:
+      4: 400050
+    second: Bip001-R-Hand
+  - first:
+      4: 400052
+    second: Bip001-R-Thigh
+  - first:
+      4: 400054
+    second: Bip001-R-Toe0
+  - first:
+      4: 400056
+    second: Bip001-R-UpperArm
+  - first:
+      4: 400058
+    second: Bip001-Spine
+  - first:
+      4: 400060
+    second: Bip001-Spine1
+  - first:
+      4: 400062
+    second: Bip001-Spine2
+  - first:
+      4: 400064
+    second: Cloth1_Bone
+  - first:
+      4: 400066
+    second: Cloth2_Bone
+  - first:
+      4: 400068
+    second: Dummy_root
+  - first:
+      4: 400070
+    second: FXDummy_Head
+  - first:
+      4: 400072
+    second: FXDummy_MainWeapon
+  - first:
+      4: 400074
+    second: FXDummy_SubWeapon
+  - first:
+      4: 400076
+    second: //RootNode
+  - first:
+      4: 400078
+    second: MOC_Hunter_D_SKEL
+  - first:
+      4: 400080
+    second: shield_Bone
+  - first:
+      43: 4300000
+    second: MOC_Hunter_D_SKEL
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: MOC_Hunter_D_SKEL
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MOC_Hunter_D_MI
+    second: {fileID: 2100000, guid: e89a0ee0970935246a9703642d35d6ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MOC_Hunter_Weapon_D_MI
+    second: {fileID: 2100000, guid: 29b85750832c1824dac174acb8c43c27, type: 2}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -106,12 +286,15 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    animationCompression: 1
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations: []
     isReadable: 1
   meshes:
@@ -119,13 +302,23 @@ ModelImporter:
     globalScale: 0.25
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
     importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
@@ -135,10 +328,14 @@ ModelImporter:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 0
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -148,14 +345,16 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 0.25
     rootMotionBoneName: Dummy_root
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
   humanoidOversampling: 1
+  avatarSetup: 1
   additionalBone: 0
   userData: 
   assetBundleName: 

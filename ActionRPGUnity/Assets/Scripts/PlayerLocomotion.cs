@@ -20,6 +20,8 @@ namespace ActionRPG
 
         [HideInInspector]
         public Transform myTransform;
+        [HideInInspector]
+        public AnimatorHandler animatorHandler;
 
         public new Rigidbody rigidbody;
         public GameObject normalCamera; //Free Moving Camera
@@ -42,10 +44,16 @@ namespace ActionRPG
             rigidbody = GetComponent<Rigidbody>();
             inputHandler = GetComponent<InputHandler>();
 
+            //Reference to the AnimHandler
+            animatorHandler = GetComponentInChildren<AnimatorHandler>();
+
             //Main Camera Reference
             cameraObject = Camera.main.transform;
             //Reference to the transform of the attached gameobject
             myTransform = transform;
+
+            //Loads the AnimatorHandler
+            animatorHandler.Initialize();
         }
 
         public void Update()
@@ -67,6 +75,13 @@ namespace ActionRPG
             //Updates Movement of the Player
             Vector3 projectedVelocity = Vector3.ProjectOnPlane(moveDirection, normalVector);
             rigidbody.velocity = projectedVelocity;
+
+            animatorHandler.UpdateAnimatorValues(inputHandler.moveAmount, 0);
+
+            if(animatorHandler.canRotate)
+            {
+                HandleRotation(delta);
+            }
 
         }
 

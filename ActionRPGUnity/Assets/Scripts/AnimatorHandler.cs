@@ -12,20 +12,87 @@ using UnityEngine;
 public class AnimatorHandler : MonoBehaviour
 {
     #region Variables
-
+    public Animator anim;
+    int vertical;
+    int horizontal;
+    public bool canRotate;
     #endregion
-	
-    #region Unity Methods
 
-    void Start()
+    #region Unity Methods
+    public void Initialize()
     {
-        
+        anim = GetComponent<Animator>();
+        vertical = Animator.StringToHash("Vertical");
+        horizontal = Animator.StringToHash("Horizontal");
     }
 
-   
-    void Update()
+    public void UpdateAnimatorValues(float verticalMovement, float horizontalMovement)
     {
-        
+        #region Vertical
+        float v = 0;
+
+        //Clamp the values to make the animations feel more rigid
+        if(verticalMovement > 0 && verticalMovement < 0.55f)
+        {
+            v = 0.5f;
+        }
+        else if(verticalMovement > 0.55f)
+        {
+            v = 1;
+        }
+        else if(verticalMovement < 0 && verticalMovement > -0.55f)
+        {
+            v = -0.5f;
+        }
+        else if(verticalMovement < -0.55f)
+        {
+            v = -1;
+        }
+        else
+        {
+            v = 0;
+        }
+        #endregion
+
+
+        #region Horizontal
+        float h = 0;
+
+        //Clamp the values to make the animations feel more rigid
+        if (horizontalMovement > 0 && horizontalMovement < 0.55f)
+        {
+            h = 0.5f;
+        }
+        else if (horizontalMovement > 0.55f)
+        {
+            h = 1;
+        }
+        else if (horizontalMovement < 0 && horizontalMovement > -0.55f)
+        {
+            h = -0.5f;
+        }
+        else if (horizontalMovement < -0.55f)
+        {
+            h = -1;
+        }
+        else
+        {
+            h = 0;
+        }
+        #endregion
+
+        anim.SetFloat(vertical, v, 0.1f, Time.deltaTime);
+        anim.SetFloat(horizontal, h, 0.1f, Time.deltaTime);
+    }
+
+    public void CanRotate()
+    {
+        canRotate = true;
+    }
+
+    public void StopRotation()
+    {
+        canRotate = false;
     }
 
     #endregion
